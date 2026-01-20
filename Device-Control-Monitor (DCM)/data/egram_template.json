@@ -1,0 +1,84 @@
+{ "egram_sessions": [
+        {
+            "session_id": "EGRAM_001",
+            "patient_id": "P001",
+            "start_time": "2025-10-24T14:12:00Z",
+            "end_time": "2025-10-24T14:17:00Z",
+            "telemetry_status_log": [
+                {
+                    "time": "2025-10-24T14:12:00Z",
+                    "status": "connected"
+                },
+                {
+                    "time": "2025-10-24T14:13:22Z",
+                    "status": "lost_noise"
+                },
+                {
+                    "time": "2025-10-24T14:13:24Z",
+                    "status": "reconnected"
+                }
+            ],
+            "settings": {
+                "egm_gain": "1X",
+                "ecg_gain": "1X",
+                "high_pass_filter": true,
+                "window_seconds": 5,
+                "sampling_rate_hz": 500,
+                "channels_selected": "both",
+                "markers_enabled": true
+            },
+            "channels": {
+                "atrial": {
+                    "enabled": true,
+                    "samples": [
+                        {
+                            "t": 0,
+                            "value": 0.32
+                        },
+                        {
+                            "t": 2,
+                            "value": 0.34
+                        }
+                    ]
+                },
+                "ventricular": {
+                    "enabled": true,
+                    "samples": [
+                        {
+                            "t": 0,
+                            "value": 0.42
+                        },
+                        {
+                            "t": 2,
+                            "value": 0.41
+                        }
+                    ]
+                },
+                "surface": {
+                    "enabled": false,
+                    "samples": []
+                }
+            },
+            "markers": [
+                {
+                    "channel": "atrial",
+                    "abbr": "AS",
+                    "timestamp_ms": 15232,
+                    "modifier": null
+                },
+                {
+                    "channel": "ventricular",
+                    "abbr": "PVC",
+                    "timestamp_ms": 15510,
+                    "modifier": null
+                }
+            ],
+            "print_metadata": {
+                "printed": false,
+                "printed_at": null,
+                "file_path": null
+            }
+        }
+    ]
+}
+

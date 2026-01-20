@@ -1,0 +1,79 @@
+{
+    "patients": [
+        {
+            "id": "P002",
+            "name": "John",
+            "device": {
+                "model": "Dr1",
+                "serial": "Abc123",
+                "dcm_serial": "DCM-002",
+                "modes": {
+                    "AOO": {
+                        "parameters": {
+                            "lower_rate_limit": "35",
+                            "upper_rate_limit": "115",
+                            "atrial_amplitude": "5",
+                            "atrial_pulse_width": "3"
+                        }
+                    },
+                    "AAI": {
+                        "parameters": {
+                            "lower_rate_limit": "100",
+                            "upper_rate_limit": "120",
+                            "atrial_amplitude": "0.5",
+                            "atrial_pulse_width": "1",
+                            "arp": "200",
+                            "atrial_sensitivity": "1",
+                            "pvarp": "200",
+                            "hysteresis": "Off",
+                            "rate_smoothing": "3"
+                        }
+                    },
+                    "VOOR": {
+                        "parameters": {
+                            "lower_rate_limit": "40",
+                            "upper_rate_limit": "60",
+                            "activity_threshold": "High",
+                            "reaction_time": "20"
+                        }
+                    },
+                    "AOOR": {
+                        "parameters": {
+                            "lower_rate_limit": "65",
+                            "upper_rate_limit": "120",
+                            "maximum_sensor_rate": "120",
+                            "atrial_amplitude": "3",
+                            "atrial_pulse_width": "2",
+                            "activity_threshold": "V-Low"
+                        }
+                    },
+                    "VOO": {
+                        "parameters": {
+                            "lower_rate_limit": "30",
+                            "upper_rate_limit": "55",
+                            "ventricular_amplitude": "3",
+                            "ventricular_pulse_width": "2"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "P003",
+            "name": "Sam",
+            "device": {
+                "model": "Asd123",
+                "serial": "123123",
+                "dcm_serial": "DCM-002",
+                "modes": {
+                    "VOOR": {
+                        "parameters": {
+                            "lower_rate_limit": "45",
+                            "upper_rate_limit": "79"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
