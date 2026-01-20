@@ -1,5 +1,3 @@
-# Pacemaker-System-Simulink-Stateflow-DCM-GUI-
-
 # Pacemaker System (Simulink/Stateflow + DCM GUI)
 
 A safety-critical real-time **cardiac pacemaker system** implemented using **MATLAB Simulink + Stateflow** and a supporting **Device Controller–Monitor (DCM)** clinician interface.
